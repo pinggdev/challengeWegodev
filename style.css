@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
 
 
+
 .napbar-atas{
     background-image: url('image/bgAtas.png');
     background-repeat: no-repeat;
@@ -75,13 +76,13 @@
 }
 
 
-.tombol {
+.jumbo-mid .tombol {
     background-color: #BAC8A0;
     color: white;
-    font-family: 'Raleway Bold', sans-serif;
+    font-family: 'Raleway' sans-serif !important;
 }
 
-.tombol:hover {
+.jumbo-mid .tombol:hover {
     background-color: #9dac83;
     color: white;
 }
@@ -115,4 +116,20 @@
 
 .award {
     color: #5B8982;
+}
+
+
+footer {
+    background-color: red;
+    padding: 20px;
+    color: white;
+    font-family: 'Raleway Bold' sans-serif;
+}
+
+.kinerja .card .card-title {
+    font-family: 'Raleway Bold', sans-serif;
+}
+
+.kinerja .card .card-text {
+    font-family: 'Raleway regular', sans-serif;
 }
