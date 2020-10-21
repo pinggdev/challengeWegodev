@@ -112,8 +112,14 @@
 }
 
 .tentang{
-    color: #5B8982;
+    color: white;
     font-family: 'Raleway' sans-serif;
+    background-image: url('image/bgTentang.png');
+    z-index: -9999;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;    
 }
 
 .about h1 {
