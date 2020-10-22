@@ -1,3 +1,7 @@
+import aboutUs from "../../../image/aboutUs.svg";
+import aboutUs2 from "../../../image/aboutUs2.svg";
+
+
 class tentangKami extends HTMLElement {
     connectedCallback() {
         this.render();
@@ -28,7 +32,7 @@ class tentangKami extends HTMLElement {
                         hic blanditiis ipsam quis.</p>
                     </div>
                     <div class="col-md-6 col-12">
-                        <img class="float-left img-fluid mx-auto d-block" src="/image/aboutUs.svg" width="100%" height="auto">
+                        <img class="float-left img-fluid mx-auto d-block" src="${aboutUs}" width="100%" height="auto">
                     </div>
                     </div>
                 </div>
@@ -41,7 +45,7 @@ class tentangKami extends HTMLElement {
                 <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-12 float-left">
-                    <img class="float-left img-fluid mx-auto d-block" src="/image/aboutUs2.svg" width="100%" height="auto">
+                    <img class="float-left img-fluid mx-auto d-block" src="${aboutUs2}" width="100%" height="auto">
                     </div>
                     <div class="col-md-6 col-12">
                     <h1 style="font-family: 'Raleway Medium', sans-serif;">History</h1>

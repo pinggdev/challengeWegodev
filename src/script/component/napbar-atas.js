@@ -1,3 +1,5 @@
+import jumboatas from "../../../image/jumboatas.svg";
+
 class napbarAtas extends HTMLElement {
     connectedCallback() {
         this.render();
@@ -42,7 +44,7 @@ class napbarAtas extends HTMLElement {
               <a class="btn tombol btn-lg" href="#" role="button">GET STARTED</a>
             </div>
             <div class="col-md-6 col-12">
-              <img class="float-left img-fluid mx-auto d-block" src="../../image/jumboatas.svg" width="100%" height="auto">
+              <img class="float-left img-fluid mx-auto d-block" src="${jumboatas}" width="100%" height="auto">
             </div>
           </div>
         </div>
